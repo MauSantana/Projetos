@@ -1,0 +1,1256 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+/*global*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#login{
+    width: 30px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    height: 50px;
+}
+
+#sys_img {
+    width: 80px;
+}
+
+.btn-orange {
+    background-color: #fff;
+    color: #fff;
+    border: none;
+    width: 60px;
+    height: 30px;
+}
+
+#linha {
+    background-color: #0076CE;
+    width: 100%;
+    height: 1px;
+}
+
+.planos button:hover {
+    background-color: #0076CE;
+    color: #fff;
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    transform: translate(5%, 5%);
+    width: 400px;
+    height: 350px;
+    transition: all 0.3s ease;
+}
+
+/* fim GLOBAL */
+
+
+/* Header */
+
+.header {
+    background-color: #0076CE;
+    height: 80px;
+    padding-top: 30px;
+    position: fixed;
+    width: 100%;
+
+}
+
+.header .nav .menu-atual a,
+.header span {
+    /* Cor do texto */
+    color: #fff;
+}
+
+#sol {
+    font-size: 20px;
+    transition: 0.1s;
+
+}
+
+#sol:hover {
+    font-size: 21px;
+}
+
+#ser {
+    font-size: 20px;
+    transition: 0.1s;
+
+}
+
+#ser:hover {
+    font-size: 21px;
+}
+
+#pla {
+    font-size: 20px;
+    transition: 0.1s;
+
+}
+
+#pla:hover {
+    font-size: 21px;
+}
+
+#sob {
+    font-size: 20px;
+    transition: 0.1s;
+
+}
+
+#sob:hover {
+    font-size: 21px;
+}
+
+#dash {
+    font-size: 20px;
+    transition: 0.1s;
+
+}
+
+#dash:hover {
+    font-size: 21px;
+}
+
+/* fim HEADER */
+
+
+/* NAV */
+
+.nav ul {
+    margin: 0;
+}
+
+.title-header p {
+    float: left;
+    color: white;
+    width: 50px;
+    padding: 20px 0 0 20px;
+    font-family: inherit;
+    font-size: 30px;
+}
+
+.title-header img {
+    float: left;
+
+}
+
+
+
+
+.nav {
+    float: right;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 20px;
+    padding: 10px 20px 0 20px;
+}
+
+
+/* Fim NAV */
+
+
+/* SHOWCASE */
+
+.showcase {
+    background-image: url(img/espaco.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    text-align: center;
+    min-height: 400px;
+    padding-top: 200px;
+}
+
+.showcase h1 {
+    margin: 0;
+    font-size: 55px;
+    padding-top: 100px;
+}
+
+.showcase p {
+    font-size: 22px;
+}
+
+.showcase #button-showcase {
+    margin-top: 30px;
+    border: none;
+    background-color: #fff;
+    padding: 15px;
+    font-size: 25px;
+    width: 300px;
+    color: #000;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.showcase #button-showcase:hover {
+    background-color: #0076ce;
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    transform: translate(0%, 5%);
+}
+
+
+/* Fim SHOWCASE */
+
+/*INFORMACAO*/
+.informacao {
+    background-color: blue;
+    margin: 50px;
+    height: 150px;
+    background-image: url(img/background.png);
+}
+
+.informacao p {
+    font-size: 23px;
+    display: inline-block;
+    padding: 50px;
+    padding-left: 190px;
+    color: #fff;
+
+}
+
+.informacao #monitoramento {
+    border-right: 3px solid #ffffff;
+}
+
+/*FIM INFORMACAO*/
+
+
+/*objetivos*/
+
+.objetivos {
+    height: 750px;
+    width: 95%;
+    margin: 0 40px 0 40px;
+    display: flex;
+    justify-content: inline-block;
+
+}
+
+.objetivos .ladoA {
+    height: 750px;
+    width: 45%;
+    margin-right: 5%;
+
+
+}
+
+.objetivos .ladoB {
+    height: 750px;
+    width: 45%;
+    margin-left: 5%;
+
+}
+
+.objetivos .imagem {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/imagem1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 7px;
+}
+
+#imagem2 {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/imagem3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+
+.imagem {
+    width: 100%;
+    height: 100%;
+}
+
+
+.objetivos .textos {
+    height: 250px;
+    width: 100%;
+    text-align: center;
+}
+
+.objetivos .textos h1 {
+    padding-top: 20px;
+}
+
+.objetivos .textos p {
+    padding: 15px 60px 0 60px;
+    font-size: 20px;
+}
+
+
+
+/*fim objetivos*/
+
+/* inicio */
+
+/* Inicio Planos */
+
+.planos {
+    text-align: center;
+    height: 600px;
+}
+
+#texto h2 {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+#pacotes {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+#premium {
+    width: 400px;
+    height: 350px;
+    background-color: #E3E3E3;
+    border-radius: 19px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#premium p {
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+}
+
+#premiumplus {
+    width: 400px;
+    height: 350px;
+    background-color: #A9A0A0;
+    border-radius: 19px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#max {
+    width: 400px;
+    height: 350px;
+    background-color: #333232;
+    border-radius: 19px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*Matheus e Rafa */
+
+#imgPremium {
+    background-image: url(img/crown.png);
+    width: 40%;
+    height: 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10%;
+    margin: 20px 0 0 0;
+}
+
+#imgPremiumPlus {
+    background-image: url(img/crown2.png);
+    width: 40%;
+    height: 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10%;
+    margin: 20px 0 0 0;
+}
+
+#imgMax {
+    background-image: url(img/crown3.png);
+    width: 40%;
+    height: 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10%;
+    margin: 20px 0 0 0;
+}
+
+#bottaoPlano {
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin: 25px 0 0 0;
+}
+
+#buttonP {
+    width: 35%;
+    height: 45%;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#testeTitulo {
+    width: 100%;
+    height: 15%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+/*Natan e Renato*/
+
+/* VISAO VALORES 1 */
+.visao {
+    height: 350px;
+    width: 95%;
+    padding-top: 100px;
+    margin: 0 40px 0 40px;
+    display: flex;
+    justify-content: inline-block;
+    background-color: white;
+}
+
+.imagem_visao_valores {
+    background-image: url(img/Imagem01Visao\ e\ Valores.png);
+    width: 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bloco_texto {
+    background-color: white;
+    text-align: justify;
+    width: 60%;
+    font-size: 30px;
+}
+
+.bloco_texto p {
+    padding: 100px 70px 0 70px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-bottom: 100px;
+}
+
+/* VISAO VALORES 1 */
+
+/* VISAO VALORES 2 */
+.visao2 {
+    height: 500px;
+    width: 95%;
+    padding-top: 100px;
+    margin: 0 40px 0 40px;
+    display: flex;
+    justify-content: inline-block;
+    background-color: white;
+    padding-bottom: 50px;
+}
+
+.imagem_visao_valores2 {
+    background-image: url(img/Imagem2\ Visao\ e\ Valores.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+    height: 100%;
+}
+
+.bloco_texto2 {
+    background-color: white;
+    width: 60%;
+    font-size: 30px;
+    text-align: justify;
+
+}
+
+.bloco_texto2 p {
+    padding: 100px 70px 0 70px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-bottom: 250px;
+}
+
+/* VISAO VALORES 2 */
+
+/*Natan e Renato*/
+
+
+/*Mauricio e Carlos*/
+
+
+.footer {
+    background-image: url(img/img-footer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 300px;
+
+}
+
+
+#fundo-footer {
+    background-color: #000;
+    opacity: 70%;
+    width: auto;
+    height: 300px;
+}
+
+#titulo-footer {
+    font-size: 24px;
+    color: rgb(50, 50, 250);
+    float: left;
+    margin: 40px 0px 0px 0px;
+}
+
+
+#texto-footer {
+    font-size: 20px;
+    color: white;
+    float: left;
+    text-align: justify;
+    margin: 40px 0px 0px 0px;
+}
+
+/*Mauricio e Carlos*/
+.footer_redes {
+    background-color: #000;
+    text-align: center;
+    min-height: 150px;
+
+}
+
+#redes {
+    margin: 50px 30px 30px 30px;
+    cursor: pointer;
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    #sys_img {
+        width: 40px;
+    }
+
+    .title-header p {
+        font-size: 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    #sol {
+        font-size: 10px;
+        transition: 0.1s;
+
+    }
+
+    #ser {
+        font-size: 10px;
+        transition: 0.1s;
+
+    }
+
+    #pla {
+        font-size: 10px;
+        transition: 0.1s;
+
+    }
+
+    #sob {
+        font-size: 10px;
+        transition: 0.1s;
+
+    }
+
+    #dash {
+        font-size: 10px;
+        transition: 0.1s;
+
+    }
+
+    .nav {
+        padding-left: 3px;
+        padding-right: 1px;
+    }
+
+    .nav li {
+        display: inline-block;
+        padding: 5px 5px 0 5px;
+    }
+
+    .container {
+        width: 400px;
+
+    }
+
+    .header {
+        height: 60px;
+    }
+
+    .showcase {
+        background-image: url(img/espaco.jpg);
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #ffffff;
+        text-align: center;
+        min-height: 300px;
+        padding-top: 100px;
+    }
+
+    .showcase h1 {
+        margin: 0;
+        font-size: 20px;
+        padding-top: 100px;
+    }
+
+    .showcase #button-showcase {
+        margin-top: 20px;
+        border: none;
+        background-color: #fff;
+        padding: 5px;
+        font-size: 12px;
+        width: 100px;
+        font-weight: bold;
+        color: #000;
+        border-radius: 5px;
+        cursor: pointer;
+
+    }
+
+    .informacao {
+        background-color: blue;
+        margin: 20px;
+        height: 70px;
+        width: 550px;
+        background-image: url(img/background.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    .informacao p {
+        font-size: 12px;
+        display: inline-block;
+        padding: 20px;
+        padding-left: 10px;
+        color: #fff;
+
+    }
+
+    .objetivos {
+        height: 380px;
+        margin: 0px 0px 0px 15px;
+        display: flex;
+        justify-content: inline-block;
+
+    }
+
+    .objetivos .ladoA {
+        height: 200px;
+        width: 45%;
+        margin-right: 5%;
+
+
+    }
+
+    .objetivos .ladoB {
+        height: 200px;
+        width: 45%;
+        margin-left: 5%;
+
+    }
+
+    .objetivos .imagem {
+        height: 200px;
+        width: 100%;
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        background-image: url(img/imagem1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 7px;
+    }
+
+    #imagem2 {
+        height: 200px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url(img/imagem3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 5px;
+    }
+
+
+    .imagem {
+        width: 100%;
+        height: 100%;
+    }
+
+    .objetivos {
+        margin-right: 200px;
+
+    }
+
+
+    .objetivos .textos {
+        height: 200px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .objetivos .textos h1 {
+        padding-top: 20px;
+        font-size: 15px;
+    }
+
+    .objetivos .textos p {
+        padding: 5px 0 20px 20px;
+        font-size: 12px;
+    }
+
+    #texto {
+        margin-top: 30px;
+    }
+
+    .textos h1 {
+        margin-right: 1px;
+
+    }
+
+    #pacotes {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: -130px 0 0 5px;
+    }
+
+    #premium {
+        width: 350px;
+        height: 233px;
+        background-color: #E3E3E3;
+        border-radius: 19px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #premiumplus {
+        width: 350px;
+        height: 233px;
+        background-color: #A9A0A0;
+        border-radius: 19px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #max {
+        width: 350px;
+        height: 233px;
+        background-color: #333232;
+        border-radius: 19px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #buttonP {
+        width: 45%;
+        height: 57%;
+        border-radius: 5px;
+        font-size: 20px;
+        border: none;
+        cursor: pointer;
+        font-size: 15px;
+    }
+
+    .visao {
+        height: 350px;
+        width: 88%;
+        margin: 0 40px 0 40px;
+        display: flex;
+        justify-content: inline-block;
+        background-color: white;
+        margin-top: -179px;
+
+
+    }
+    .imagem_visao_valores {
+        background-image: url(img/Imagem01Visao\ e\ Valores.png);
+        width: 45%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .bloco_texto {
+     background-color: white;
+    text-align: justify;
+    width: 60%;
+    font-size: 20px;
+    }
+
+    .bloco_texto p {
+        padding: 20px 20px 10px 20px;
+        border-top: 1px solid black;
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+        padding-bottom: 63px;
+  
+    }
+
+    .visao2 {
+        height: 350px;
+        width: 88%;
+        padding-top: 100px;
+        margin: 20px 40px 20px 40px;
+        display: flex;
+        justify-content: inline-block;
+        background-color: white;
+        padding-bottom: 50px;
+    }
+    .bloco_texto2 {
+        background-color: white;
+        width: 60%;
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    .bloco_texto2 p {
+        padding: 20px 20px 20px 20px;
+        border-top: 1px solid black;
+        border-left: 1px solid black;
+        border-bottom: 1px solid black;
+        padding-bottom: 38px;
+    }
+
+    .imagem_visao_valores2 {
+        background-image: url(img/Imagem2\ Visao\ e\ Valores.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 230px;
+        height: 300px;
+    }
+}
+
+
+@media only screen and (min-width: 1200px){
+
+ 
+
+    body{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+ 
+
+    .header{
+        max-width: 1200px;
+    }
+
+ 
+
+    .title-header{
+        margin: 0px;
+        padding: 0px;
+    }
+
+ 
+
+    .title-header p{
+        padding-right: 30px;
+    }
+
+ 
+
+    .container{
+        margin: 0px;
+        padding: 0px;
+        width: 1200px;
+    }
+
+ 
+
+    .nav{
+        margin-left: 40px;
+    }
+
+}
+@media only screen and (min-width: 768px) {
+    #sys_img {
+        width: 67px;
+    }
+    
+    .sys_nome {
+        font-size: 0;
+    }
+    .container {
+        width: 80%;
+        margin: auto;
+        height: 50px;
+    }
+    .showcase h1 {
+        margin: -80px 0 0 0;
+        font-size: 55px;
+        padding-top: 100px;
+    }
+    .showcase #button-showcase {
+        margin-top: 30px;
+        border: none;
+        background-color: #fff;
+        padding: 15px;
+        font-size: 25px;
+        width: 300px;
+        color: #000;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .informacao p {
+        font-size: 14px;
+        display: inline-block;
+        padding: 8px;
+        padding-left: 190px;
+        color: #fff;
+        float: right;
+
+    }
+
+    #buttonP {
+        width: 51%;
+        height: 45%;
+        border-radius: 5px;
+        font-size: 19px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .visao {
+        height: 350px;
+        width: 95%;
+        padding-top: 100px;
+        margin: -30px 40px 0 22px;
+        display: flex;
+        justify-content: inline-block;
+        background-color: white;
+    }
+    .visao2 {
+        height: 450px;
+        width: 95%;
+        padding-top: 100px;
+        margin: -11px 40px 0 21px;
+        display: flex;
+        justify-content: inline-block;
+        background-color: white;
+        padding-bottom: 50px;
+    }
+
+    
+    .header {
+        background-color: #0076CE;
+        height: 80px;
+        padding-top: 30px;
+        position: fixed;
+        width: 100%;
+    }
+
+    .footer {
+        background-image: url(img/img-footer.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: auto;
+        height: 289px;
+    }
+    
+    .nav li {
+        display: inline-block;
+        padding: 20px;
+        padding: 20px 12px 0 11px;
+        /* font-size: 10px; */
+    }
+
+    #sol {
+        font-size: 15px;
+        transition: 0.1s;
+    }
+
+    #ser {
+        font-size: 15px;
+        transition: 0.1s;
+    }
+
+    #pla {
+        font-size: 15px;
+        transition: 0.1s;
+    }
+
+    #sob {
+        font-size: 15px;
+        transition: 0.1s;
+    }
+
+    #dash {
+        font-size: 15px;
+        transition: 0.1s;
+    }
+
+    .showcase {
+        background-image: url(img/espaco.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #ffffff;
+        text-align: center;
+        min-height: 400px;
+        padding-top: 200px;
+    }
+
+    .showcase h1 {
+        margin: -80px 0 0 0;
+        font-size: 55px;
+        padding-top: 100px;
+    }
+
+    .informacao {
+        background-color: blue;
+        margin: 50px;
+        height: 150px;
+        background-image: url(img/background.png);
+    }
+
+    .informacao #monitoramento {
+        border-right: 3px solid #ffffff;
+    }
+
+    .informacao p {
+        font-size: 14px;
+        display: inline-block;
+        padding: 8px;
+        padding-left: 190px;
+        color: #fff;
+        float: right;
+    }
+
+    .mon_p {
+        margin:50px 410px 0 0;
+    }
+
+    .mon_p2 {
+        margin: -42px 50px 0 0;
+    }
+
+    .objetivos {
+        height: 337px;
+        width: 90%;
+        margin: 0 40px 242px 40px;
+        display: flex;
+        justify-content: inline-block;
+    }
+
+    .objetivos .imagem {
+        height: 300px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url(img/imagem1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 7px;
+    }
+
+    #imagem2 {
+        height: 300px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url(img/imagem3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 5px;
+    }
+
+    .objetivos .textos h1 {
+        padding-top: 20px;
+        font-size: 22px;
+    }
+
+    .objetivos .textos p {
+        padding: 20px 0 0 18px;
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    #pacotes {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    #texto h2 {
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        padding-top: 46px;
+        margin: 0 0 -105px 0;
+    }
+
+    #premium {
+        width: 400px;
+        height: 257px;
+        background-color: #E3E3E3;
+        border-radius: 19px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #premiumplus {
+        width: 400px;
+        height: 257px;
+        background-color: #A9A0A0;
+        border-radius: 19px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #max {
+        width: 400px;
+        height: 257px;
+        background-color: #333232;
+        border-radius: 19px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #buttonP {
+        width: 35%;
+        height: 45%;
+        border-radius: 5px;
+        font-size: 15px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .visao {
+        height: 350px;
+        width: 95%;
+        padding-top: 100px;
+        margin: 0 40px 0 22px;
+        display: flex;
+        justify-content: inline-block;
+        background-color: white;
+    }
+
+    .imagem_visao_valores {
+        background-image: url(img/Imagem01Visao\ e\ Valores.png);
+        width: 40%;
+        height: 67%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .bloco_texto p {
+        padding: 32px 26px 0 32px;
+        border-top: 1px solid black;
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+        padding-bottom: 33px;
+    }
+
+    .bloco_texto {
+        background-color: white;
+        text-align: justify;
+        width: 60%;
+        font-size: 20px;
+    }
+
+    .visao2 {
+        height: 450px;
+        width: 95%;
+        padding-top: 100px;
+        margin: 0 40px 0 21px;
+        display: flex;
+        justify-content: inline-block;
+        background-color: white;
+        padding-bottom: 50px;
+    }
+
+    .imagem_visao_valores2 {
+        background-image: url(img/Imagem2\ Visao\ e\ Valores.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 40%;
+        height: 53%;
+    }
+
+    .bloco_texto2 p {
+        padding: 32px 26px 0 32px;
+        border-top: 1px solid black;
+        border-left: 1px solid black;
+        border-bottom: 1px solid black;
+        padding-bottom: 37px;
+    }
+
+    .bloco_texto2 {
+        background-color: white;
+        width: 60%;
+        font-size: 20px;
+        text-align: justify;
+    }
+}

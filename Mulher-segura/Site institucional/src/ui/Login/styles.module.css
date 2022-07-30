@@ -1,0 +1,16 @@
+.section {display: flex; height: 100vh;}
+.section > div {width: 50%;}
+.section .pageLeftSide {display: flex; align-items: center; text-align: center; justify-content: center;}
+.section .pageLeftSide > div {width: 80%;}
+.section .pageRightSide {background-color: #D171E1; background-size: 80% auto; background-position: center bottom; background-repeat: no-repeat;}
+.section .pageRightSide p {font-size: 30px; color: black; font-weight: bold; text-align: center; width: 80%; margin: 5% auto;}
+
+.logo {margin-bottom: 30px;}
+.logo img{width: 150px; height: auto;}
+
+.options {display: flex; margin: 20px 0;}
+.options > div {flex-grow: 1;}
+.options > div:last-child {text-align: right;}
+
+.link {color: #215AC8; text-decoration: none;}
+.link:hover {text-decoration: underline;}

@@ -1,0 +1,9 @@
+.input {display: block; height: 75px; position: relative; box-sizing: border-box; font-size: 18px;}
+.input.outline {border: 1px solid #C1BBBB;}
+.input::before {content: ''; display: block; position: absolute; left: 0; top: 0; bottom: 0; width: 0; transition: .3s; background: #BB6BD9;}
+.input.focused::before {width: 3px;}
+.input label {position: absolute; left: 30px; right: 30px; bottom: 10px; line-height: 25px; z-index: 1; text-align: left; cursor: text; transition: .3s;}
+.input input { display: block; box-sizing: border-box; height: 40px; position: absolute; bottom: 0; left: 30px; font-size: 18px; color: #B300F6; border: 0; outline: none; width: calc(100% - 60px)}
+.input input:not(:focus)::placeholder {color: transparent;}
+
+.input.focused label, .input.hasValue label {font-size: 16px; line-height: 12px; bottom: 40px; }

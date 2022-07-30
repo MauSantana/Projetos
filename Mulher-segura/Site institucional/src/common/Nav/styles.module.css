@@ -1,0 +1,82 @@
+
+.containerNav {
+    
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    width: 1400px;
+    margin: 0 auto;
+    max-width: 98%;
+    position: relative;
+    z-index: 9;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    flex-grow: 1;
+    margin: 0;
+}
+
+.nav li {
+    display: relative;
+    transition: 0.5s;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #3C066F;
+    font-size: 19px;
+    padding: 10px;
+}
+
+.nav Link {
+    text-decoration: none;
+    color: #3C066F;
+    font-size: 19px;
+    padding: 10px;
+}
+
+.nav a:hover{
+    color: #FF5446;
+}
+
+.logo {
+    width: 84px;
+    height: auto;
+}
+
+.menu {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.cadastro {
+    display: inline-block;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    color: #9B51E0;
+    margin: 0 15px;
+    line-height: 22px;
+}
+
+a.btnEntrar {
+    display: inline-block;
+    flex-direction: row;
+    align-items: center;
+    background: #9B51E0;
+    border-radius: 5px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    flex: none;
+}

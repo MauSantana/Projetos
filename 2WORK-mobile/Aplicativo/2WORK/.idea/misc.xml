@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Acer/Downloads/Bandtec/4º Semestre/Pesquisa e Inovação/13.05.2022/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_projetos.xml" value="0.25" />
+        <entry key="..\:/Users/Acer/Downloads/Bandtec/4º Semestre/Pesquisa e Inovação/13.05.2022/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/layout_item_liked_projects.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Acer/Downloads/Bandtec/4º Semestre/Pesquisa e Inovação/13.05.2022/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/layout_item_my_projects.xml" value="1.1" />
+        <entry key="..\:/Users/Caio/Desktop/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_cadastro.xml" value="0.25" />
+        <entry key="..\:/Users/Caio/Desktop/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_feed.xml" value="0.25" />
+        <entry key="..\:/Users/Caio/Desktop/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_home.xml" value="0.2" />
+        <entry key="..\:/Users/Caio/Desktop/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/Caio/Desktop/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_profile.xml" value="0.2" />
+        <entry key="..\:/Users/Caio/Desktop/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_project_profile.xml" value="0.2" />
+        <entry key="..\:/Users/Caio/Desktop/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_projects_full.xml" value="0.18981481481481483" />
+        <entry key="..\:/Users/Caio/Desktop/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_projetos.xml" value="0.2" />
+        <entry key="..\:/Users/Caio/Desktop/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_slide.xml" value="0.2" />
+        <entry key="..\:/Users/Caio/Desktop/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_splash.xml" value="0.18981481481481483" />
+        <entry key="..\:/Users/Caio/Desktop/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_update_profile.xml" value="0.2" />
+        <entry key="..\:/Users/Caio/Desktop/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_upload.xml" value="0.2" />
+        <entry key="..\:/Users/Caio/Desktop/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/layout_item_liked_projects.xml" value="0.2" />
+        <entry key="..\:/Users/Caio/Desktop/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/layout_item_my_projects.xml" value="0.2" />
+        <entry key="..\:/Users/Caio/Desktop/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/slide_screen.xml" value="0.2" />
+        <entry key="..\:/Users/Caio/Desktop/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.2" />
+        <entry key="..\:/Users/Caio/Documents/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/drawable/ic_image_2.xml" value="0.2111111111111111" />
+        <entry key="..\:/Users/Caio/Documents/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_cadastro.xml" value="0.25" />
+        <entry key="..\:/Users/Caio/Documents/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_feed.xml" value="0.25" />
+        <entry key="..\:/Users/Caio/Documents/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/Users/Caio/Documents/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/Caio/Documents/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_profile.xml" value="0.2" />
+        <entry key="..\:/Users/Caio/Documents/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_project_profile.xml" value="0.2" />
+        <entry key="..\:/Users/Caio/Documents/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_projects_full.xml" value="0.2" />
+        <entry key="..\:/Users/Caio/Documents/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_projetos.xml" value="0.2" />
+        <entry key="..\:/Users/Caio/Documents/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_slide.xml" value="0.2" />
+        <entry key="..\:/Users/Caio/Documents/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_splash.xml" value="0.2" />
+        <entry key="..\:/Users/Caio/Documents/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_update_profile.xml" value="0.2" />
+        <entry key="..\:/Users/Caio/Documents/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_upload.xml" value="0.25" />
+        <entry key="..\:/Users/Caio/Documents/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/cadastro.xml" value="0.25" />
+        <entry key="..\:/Users/Caio/Documents/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/home.xml" value="0.25" />
+        <entry key="..\:/Users/Caio/Documents/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/inicio.xml" value="0.25" />
+        <entry key="..\:/Users/Caio/Documents/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/layout_item_liked_projects.xml" value="0.2" />
+        <entry key="..\:/Users/Caio/Documents/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/layout_item_my_projects.xml" value="0.2" />
+        <entry key="..\:/Users/Caio/Documents/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/login.xml" value="0.25" />
+        <entry key="..\:/Users/Caio/Documents/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/projetos.xml" value="0.25" />
+        <entry key="..\:/Users/Caio/Documents/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/slide_screen.xml" value="0.2" />
+        <entry key="..\:/Users/Caio/Documents/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/upload.xml" value="0.25" />
+        <entry key="..\:/Users/Caio/Documents/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.2" />
+        <entry key="..\:/Users/Mauri/AndroidStudioProjects/2WORK/app/src/main/res/font/opensans.xml" value="0.28020833333333334" />
+        <entry key="..\:/Users/Mauri/AndroidStudioProjects/2WORK/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/Mauri/AndroidStudioProjects/2WORK/app/src/main/res/layout/cadastro.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/Mauri/AndroidStudioProjects/2WORK/app/src/main/res/layout/login.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/Mauri/AndroidStudioProjects/2WORK/app/src/main/res/layout/primeira_tela.xml" value="0.25" />
+        <entry key="..\:/Users/Mauri/Desktop/PROJETOS/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_cadastro.xml" value="0.2324074074074074" />
+        <entry key="..\:/Users/Mauri/Desktop/PROJETOS/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_feed.xml" value="0.25" />
+        <entry key="..\:/Users/Mauri/Desktop/PROJETOS/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/Users/Mauri/Desktop/PROJETOS/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/Mauri/Desktop/PROJETOS/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_profile.xml" value="0.22685185185185186" />
+        <entry key="..\:/Users/Mauri/Desktop/PROJETOS/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_project_profile.xml" value="0.2324074074074074" />
+        <entry key="..\:/Users/Mauri/Desktop/PROJETOS/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_projects_full.xml" value="0.2324074074074074" />
+        <entry key="..\:/Users/Mauri/Desktop/PROJETOS/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_projetos.xml" value="0.25" />
+        <entry key="..\:/Users/Mauri/Desktop/PROJETOS/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_slide.xml" value="0.25" />
+        <entry key="..\:/Users/Mauri/Desktop/PROJETOS/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_splash.xml" value="0.2324074074074074" />
+        <entry key="..\:/Users/Mauri/Desktop/PROJETOS/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_update_profile.xml" value="0.2324074074074074" />
+        <entry key="..\:/Users/Mauri/Desktop/PROJETOS/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_upload.xml" value="0.25" />
+        <entry key="..\:/Users/Mauri/Desktop/PROJETOS/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/layout_item_liked_projects.xml" value="0.25" />
+        <entry key="..\:/Users/Mauri/Desktop/PROJETOS/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/layout_item_my_projects.xml" value="0.25" />
+        <entry key="..\:/Users/Mauri/Desktop/PROJETOS/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/layout_item_my_projects_recents.xml" value="0.25" />
+        <entry key="..\:/Users/Mauri/Documents/2WORK-certo/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_cadastro.xml" value="0.21203703703703702" />
+        <entry key="..\:/Users/Mauri/Documents/2WORK-certo/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_feed.xml" value="0.2064814814814815" />
+        <entry key="..\:/Users/Mauri/Documents/2WORK-certo/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/Users/Mauri/Documents/2WORK-certo/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_login.xml" value="0.2064814814814815" />
+        <entry key="..\:/Users/Mauri/Documents/2WORK-certo/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_profile.xml" value="0.21203703703703702" />
+        <entry key="..\:/Users/Mauri/Documents/2WORK-certo/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_project_profile.xml" value="0.25" />
+        <entry key="..\:/Users/Mauri/Documents/2WORK-certo/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_projects_full.xml" value="0.25" />
+        <entry key="..\:/Users/Mauri/Documents/2WORK-certo/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_projetos.xml" value="0.21203703703703702" />
+        <entry key="..\:/Users/Mauri/Documents/2WORK-certo/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_slide.xml" value="0.25" />
+        <entry key="..\:/Users/Mauri/Documents/2WORK-certo/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_splash.xml" value="0.21203703703703702" />
+        <entry key="..\:/Users/Mauri/Documents/2WORK-certo/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_update_profile.xml" value="0.21203703703703702" />
+        <entry key="..\:/Users/Mauri/Documents/2WORK-certo/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_upload.xml" value="0.21203703703703702" />
+        <entry key="..\:/Users/Mauri/Documents/2WORK-certo/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/layout_item_liked_projects.xml" value="0.25" />
+        <entry key="..\:/Users/Mauri/Documents/2WORK-certo/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/layout_item_my_projects.xml" value="0.21203703703703702" />
+        <entry key="..\:/Users/Mauri/Documents/2WORK-certo/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/slide_screen.xml" value="0.25" />
+        <entry key="..\:/Users/Mauri/Documents/teste-/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/drawable/custom_input.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Mauri/Documents/teste-/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/drawable/empresa_um.xml" value="0.2564814814814815" />
+        <entry key="..\:/Users/Mauri/Documents/teste-/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/drawable/ic_search_icon.xml" value="0.26197916666666665" />
+        <entry key="..\:/Users/Mauri/Documents/teste-/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/cadastro.xml" value="0.25" />
+        <entry key="..\:/Users/Mauri/Documents/teste-/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/feed.xml" value="0.25" />
+        <entry key="..\:/Users/Mauri/Documents/teste-/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/home.xml" value="0.25" />
+        <entry key="..\:/Users/Mauri/Documents/teste-/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/inicio.xml" value="0.25" />
+        <entry key="..\:/Users/Mauri/Documents/teste-/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/login.xml" value="0.25" />
+        <entry key="..\:/Users/Mauri/Documents/teste-/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/projetos.xml" value="0.264" />
+        <entry key="..\:/Users/Mauri/Documents/teste-/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/upload.xml" value="0.25" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_profile.xml" value="0.20102564102564102" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_projects_full.xml" value="0.20102564102564102" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_projetos.xml" value="0.20102564102564102" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_upload.xml" value="0.33" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/layout_item_my_projects.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/2WORK/app/src/main/res/drawable/custom_button_radius.xml" value="0.2203125" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/2WORK/app/src/main/res/drawable/custom_button_stroke.xml" value="0.2111111111111111" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/2WORK/app/src/main/res/drawable/custom_input.xml" value="0.2111111111111111" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/2WORK/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/2WORK/app/src/main/res/layout/cadastro.xml" value="0.33" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/2WORK/app/src/main/res/layout/feed.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/2WORK/app/src/main/res/layout/fragment_profile.xml" value="0.3010752688172043" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/2WORK/app/src/main/res/layout/fragment_update_profile.xml" value="0.33" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/2WORK/app/src/main/res/layout/home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/2WORK/app/src/main/res/layout/inicio.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/2WORK/app/src/main/res/layout/layout_item_liked_projects.xml" value="0.25" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/2WORK/app/src/main/res/layout/layout_item_my_projects.xml" value="0.2" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/2WORK/app/src/main/res/layout/login.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/2WORKMobile/Aplicativo/2WORK/app/src/main/res/layout/activity_upload.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/2work/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_feed.xml" value="0.24343015214384509" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/2work/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_projetos.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/2work/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_slide.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/2work/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_upload.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/2work/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/slide_screen.xml" value="0.22" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/2workmobile/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_feed.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/2workmobile/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/2workmobile/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_profile.xml" value="0.22" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/2workmobile/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_projetos.xml" value="0.22" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/2workmobile/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_splash.xml" value="0.13405797101449277" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/2workmobile/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_upload.xml" value="0.1766304347826087" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/2workmobile/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/Nova pasta/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_cadastro.xml" value="0.16296296296296298" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/Nova pasta/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_feed.xml" value="0.21230398069963813" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/Nova pasta/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_home.xml" value="0.16296296296296298" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/Nova pasta/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/Nova pasta/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_profile.xml" value="0.16296296296296298" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/Nova pasta/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_projetos.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/Nova pasta/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_slide.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/Nova pasta/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_splash.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/Nova pasta/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_update_profile.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/Nova pasta/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_upload.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/Nova pasta/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/layout_item_liked_projects.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/Nova pasta/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/layout_item_my_projects.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/Nova pasta/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/slide_screen.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/verdadeiro2work/2WORKMobile/Aplicativo/2WORK/app/src/main/res/drawable/custom_button_radius.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/verdadeiro2work/2WORKMobile/Aplicativo/2WORK/app/src/main/res/drawable/custom_button_stroke.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/verdadeiro2work/2WORKMobile/Aplicativo/2WORK/app/src/main/res/drawable/ic_upload.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/verdadeiro2work/2WORKMobile/Aplicativo/2WORK/app/src/main/res/drawable/layout_shadow_menu.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/verdadeiro2work/2WORKMobile/Aplicativo/2WORK/app/src/main/res/layout/activity_cadastro.xml" value="0.2" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/verdadeiro2work/2WORKMobile/Aplicativo/2WORK/app/src/main/res/layout/activity_feed.xml" value="0.2" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/verdadeiro2work/2WORKMobile/Aplicativo/2WORK/app/src/main/res/layout/activity_home.xml" value="0.2" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/verdadeiro2work/2WORKMobile/Aplicativo/2WORK/app/src/main/res/layout/activity_inicio.xml" value="0.1859375" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/verdadeiro2work/2WORKMobile/Aplicativo/2WORK/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/verdadeiro2work/2WORKMobile/Aplicativo/2WORK/app/src/main/res/layout/activity_profile.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/verdadeiro2work/2WORKMobile/Aplicativo/2WORK/app/src/main/res/layout/activity_projetos.xml" value="0.25" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/verdadeiro2work/2WORKMobile/Aplicativo/2WORK/app/src/main/res/layout/activity_slide.xml" value="0.2" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/verdadeiro2work/2WORKMobile/Aplicativo/2WORK/app/src/main/res/layout/activity_splash.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/verdadeiro2work/2WORKMobile/Aplicativo/2WORK/app/src/main/res/layout/activity_update_profile.xml" value="0.22" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/verdadeiro2work/2WORKMobile/Aplicativo/2WORK/app/src/main/res/layout/activity_upload.xml" value="0.25" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/verdadeiro2work/2WORKMobile/Aplicativo/2WORK/app/src/main/res/layout/cadastro.xml" value="0.2" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/verdadeiro2work/2WORKMobile/Aplicativo/2WORK/app/src/main/res/layout/feed.xml" value="0.18333333333333332" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/verdadeiro2work/2WORKMobile/Aplicativo/2WORK/app/src/main/res/layout/fragment_profile.xml" value="0.2" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/verdadeiro2work/2WORKMobile/Aplicativo/2WORK/app/src/main/res/layout/fragment_update_profile.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/verdadeiro2work/2WORKMobile/Aplicativo/2WORK/app/src/main/res/layout/home.xml" value="0.2" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/verdadeiro2work/2WORKMobile/Aplicativo/2WORK/app/src/main/res/layout/inicio.xml" value="0.2" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/verdadeiro2work/2WORKMobile/Aplicativo/2WORK/app/src/main/res/layout/layout_item_liked_projects.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/verdadeiro2work/2WORKMobile/Aplicativo/2WORK/app/src/main/res/layout/layout_item_my_projects.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/verdadeiro2work/2WORKMobile/Aplicativo/2WORK/app/src/main/res/layout/login.xml" value="0.18333333333333332" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/verdadeiro2work/2WORKMobile/Aplicativo/2WORK/app/src/main/res/layout/projetos.xml" value="0.18333333333333332" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/verdadeiro2work/2WORKMobile/Aplicativo/2WORK/app/src/main/res/layout/slide_screen.xml" value="0.2" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/verdadeiro2work/2WORKMobile/Aplicativo/2WORK/app/src/main/res/layout/upload.xml" value="0.18333333333333332" />
+        <entry key="..\:/Users/joaov/OneDrive/Documentos/verdadeiro2work/2WORKMobile/Aplicativo/2WORK/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.2" />
+        <entry key="..\:/Users/lucas/Desktop/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/drawable-v24/border3.xml" value="0.1" />
+        <entry key="..\:/Users/lucas/Desktop/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/drawable/border.xml" value="0.1925" />
+        <entry key="..\:/Users/lucas/Desktop/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_feed.xml" value="0.2" />
+        <entry key="..\:/Users/lucas/Desktop/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/Users/lucas/Desktop/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_profile.xml" value="0.25" />
+        <entry key="..\:/Users/lucas/Desktop/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_project_profile.xml" value="0.4" />
+        <entry key="..\:/Users/lucas/Desktop/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_projects_full.xml" value="0.264" />
+        <entry key="..\:/Users/lucas/Desktop/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_projetos.xml" value="0.264" />
+        <entry key="..\:/Users/lucas/Desktop/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_slide.xml" value="0.25" />
+        <entry key="..\:/Users/lucas/Desktop/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_splash.xml" value="0.25" />
+        <entry key="..\:/Users/lucas/Desktop/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_update_profile.xml" value="0.25" />
+        <entry key="..\:/Users/lucas/Desktop/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_upload.xml" value="0.25" />
+        <entry key="..\:/Users/lucas/Desktop/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/feed.xml" value="0.3473227206946454" />
+        <entry key="..\:/Users/lucas/Desktop/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/home.xml" value="0.25" />
+        <entry key="..\:/Users/lucas/Desktop/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/layout_item_liked_projects.xml" value="0.25" />
+        <entry key="..\:/Users/lucas/Desktop/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/layout_item_my_modal_projects.xml" value="0.25" />
+        <entry key="..\:/Users/lucas/Desktop/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/layout_item_my_projects.xml" value="0.25" />
+        <entry key="..\:/Users/lucas/Desktop/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/layout_item_my_projects_recents.xml" value="0.3520408163265306" />
+        <entry key="..\:/Users/lucas/Desktop/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/projetos.xml" value="0.25" />
+        <entry key="..\:/Users/lucas/Desktop/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/slide_screen.xml" value="0.25" />
+        <entry key="..\:/Users/lucas/Desktop/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/upload.xml" value="0.2359375" />
+        <entry key="..\:/Users/lucas/Desktop/Nova pasta/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/drawable-v24/ic_baseline_favorite_24.xml" value="0.166" />
+        <entry key="..\:/Users/lucas/Desktop/Nova pasta/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/drawable-v24/ic_baseline_favorite_border_24.xml" value="0.173" />
+        <entry key="..\:/Users/lucas/Desktop/Nova pasta/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.166" />
+        <entry key="..\:/Users/lucas/Desktop/Nova pasta/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/drawable/border2.xml" value="0.173" />
+        <entry key="..\:/Users/lucas/Desktop/Nova pasta/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/drawable/custom_button_radius.xml" value="0.173" />
+        <entry key="..\:/Users/lucas/Desktop/Nova pasta/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/drawable/custom_button_stroke.xml" value="0.166" />
+        <entry key="..\:/Users/lucas/Desktop/Nova pasta/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/drawable/custom_input.xml" value="0.166" />
+        <entry key="..\:/Users/lucas/Desktop/Nova pasta/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/drawable/custom_input_profile.xml" value="0.166" />
+        <entry key="..\:/Users/lucas/Desktop/Nova pasta/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/drawable/custom_stroke_circle.xml" value="0.166" />
+        <entry key="..\:/Users/lucas/Desktop/Nova pasta/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/drawable/ic_conta.xml" value="0.166" />
+        <entry key="..\:/Users/lucas/Desktop/Nova pasta/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.166" />
+        <entry key="..\:/Users/lucas/Desktop/Nova pasta/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/drawable/ic_next.xml" value="0.166" />
+        <entry key="..\:/Users/lucas/Desktop/Nova pasta/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/drawable/ic_planos.xml" value="0.166" />
+        <entry key="..\:/Users/lucas/Desktop/Nova pasta/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/drawable/ic_projetos.xml" value="0.166" />
+        <entry key="..\:/Users/lucas/Desktop/Nova pasta/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/drawable/layout_shadow_menu.xml" value="0.166" />
+        <entry key="..\:/Users/lucas/Desktop/Nova pasta/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_feed.xml" value="0.25" />
+        <entry key="..\:/Users/lucas/Desktop/Nova pasta/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_project_profile.xml" value="0.25" />
+        <entry key="..\:/Users/lucas/Desktop/Nova pasta/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_projects_full.xml" value="0.25" />
+        <entry key="..\:/Users/lucas/Desktop/Nova pasta/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_projetos.xml" value="0.25" />
+        <entry key="..\:/Users/lucas/Desktop/Nova pasta/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_splash.xml" value="0.25" />
+        <entry key="..\:/Users/lucas/Desktop/Nova pasta/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/layout_item_liked_projects.xml" value="0.25" />
+        <entry key="..\:/Users/lucas/Desktop/Nova pasta/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/layout_item_my_modal_projects.xml" value="0.25" />
+        <entry key="..\:/Users/lucas/Desktop/Nova pasta/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/layout_item_my_projects.xml" value="0.264" />
+        <entry key="..\:/Users/vinicius.n.ferreira/OneDrive - Accenture/Desktop/2WORK-MOBILE/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_cadastro.xml" value="0.25" />
+        <entry key="..\:/Users/vinicius.n.ferreira/OneDrive - Accenture/Desktop/2WORK-MOBILE/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_feed.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/vinicius.n.ferreira/OneDrive - Accenture/Desktop/2WORK-MOBILE/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/vinicius.n.ferreira/OneDrive - Accenture/Desktop/2WORK-MOBILE/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_profile.xml" value="0.1537037037037037" />
+        <entry key="..\:/Users/vinicius.n.ferreira/OneDrive - Accenture/Desktop/2WORK-MOBILE/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_projetos.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/vinicius.n.ferreira/OneDrive - Accenture/Desktop/2work-mobile/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2203125" />
+        <entry key="..\:/Users/vinicius.n.ferreira/OneDrive - Accenture/Desktop/2work-mobile/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/drawable/custom_input.xml" value="0.2203125" />
+        <entry key="..\:/Users/vinicius.n.ferreira/OneDrive - Accenture/Desktop/2work-mobile/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2203125" />
+        <entry key="..\:/Users/vinicius.n.ferreira/OneDrive - Accenture/Desktop/2work-mobile/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/cadastro.xml" value="0.19722222222222222" />
+        <entry key="..\:/Users/vinicius.n.ferreira/OneDrive - Accenture/Desktop/2work-mobile/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/home.xml" value="0.19722222222222222" />
+        <entry key="..\:/Users/vinicius.n.ferreira/OneDrive - Accenture/Desktop/2work-mobile/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/inicio.xml" value="0.19722222222222222" />
+        <entry key="..\:/Users/vinicius.n.ferreira/OneDrive - Accenture/Desktop/2work-mobile/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/login.xml" value="0.19722222222222222" />
+        <entry key="..\:/Users/vinicius.n.ferreira/OneDrive - Accenture/Desktop/2work-mobile/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/projetos.xml" value="0.22" />
+        <entry key="..\:/Users/vinicius.n.ferreira/OneDrive - Accenture/Desktop/2work-mobile/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/upload.xml" value="0.33" />
+        <entry key="..\:/lucas/Documents/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/drawable/border.xml" value="0.1" />
+        <entry key="..\:/lucas/Documents/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_projects_full.xml" value="0.4" />
+        <entry key="..\:/lucas/bandtec/4_sem/2WORK/app/src/main/res/layout/activity_profile.xml" value="0.36666666666666664" />
+        <entry key="..\:/lucas/bandtec/4_sem/2WORK/app/src/main/res/layout/activity_slide.xml" value="0.36666666666666664" />
+        <entry key="..\:/lucas/bandtec/4_sem/2WORK/app/src/main/res/layout/slide_screen.xml" value="0.36666666666666664" />
+        <entry key="..\:/lucas/bandtec/4_sem/Projeto/Projeto/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/drawable/btn_bg.xml" value="0.184" />
+        <entry key="..\:/lucas/bandtec/4_sem/Projeto/Projeto/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/activity_slide.xml" value="0.3515625" />
+        <entry key="..\:/lucas/bandtec/4_sem/Projeto/Projeto/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/layout/slide_screen.xml" value="0.36666666666666664" />
+        <entry key="..\:/lucas/bandtec/4_sem/Projeto/Projeto/2WORK-Mobile/Aplicativo/2WORK/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/lucas/bandtec/4_sem/Testes do aplicativo/2WORK/app/src/main/res/layout/slide_screen.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

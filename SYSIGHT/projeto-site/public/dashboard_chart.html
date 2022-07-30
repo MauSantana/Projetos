@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Dashboard</title>
+	<link rel="shortcut icon" href="img/esculápio.png">
+	<link rel="stylesheet" href="dashboard_chart.css">
+	<!-- script do google charts -->
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+
+	<!-- scripts do Chart.js -->
+	<script type="text/javascript" src="https://www.chartjs.org/dist/2.8.0/Chart.min.js"></script>
+	<script type="text/javascript" src="https://www.chartjs.org/samples/latest/utils.js"></script>
+	<title>Sysight | Dashboard</title>
+
+
+
+</head>
+
+<body onload="atualizacaoPeriodica()">
+	<!--HEADER-->
+
+	<div class="header">
+
+		<div class="img-header">
+			<a href="index.html"><img src="img/5.png"></a>
+		</div>
+
+
+		<nav>
+			<ul>
+				<li>
+					<p> <b> Olá, </b> <b id="b_usuario"></b></p>
+				</li>
+				<li><a href="#" onclick="logoff()"> <b>Sair</b></a></li>
+			</ul>
+		</nav>
+
+	</div>
+
+		<div class="legenda">
+			<span><span class="dot"></span>Consumo alto</span>
+			<span><span class="dot1"></span>Consumo normal</span>
+		</div>
+	
+		<div class="container-computadores">
+
+			<div id="div_alerta_consumo" class="temperatura1 normal">
+				<img src="img/monitor.png" class="img_consumo">
+				<p style="font-weight: bold;" name="nameconsumo" id="fkEquipamento" value="1">PC 1</p>
+				<p>consumo ram:</p>
+				<span id="div_consumoRam">0%</span>
+				<p>consumo cpu:</p>
+				<span id="div_consumoCpu">0%</span>
+				<p>consumo disco:</p>
+				<span id="div_consumoDisco">0%</span>
+			</div>
+
+			<div id="div_alerta_consumo2" class="temperatura1 normal">
+				<img src="img/monitor.png" class="img_consumo">
+				<p style="font-weight: bold;" name="nameconsumo" id="fkEquipamento" value="2">PC 2</p>
+				<p>consumo ram:</p>
+				<span id="div_consumoRam2">0%</span>
+				<p>consumo cpu:</p>
+				<span id="div_consumoCpu2">0%</span>
+				<p>consumo disco:</p>
+				<p id="div_consumoDisco2">0%</span>
+			</div>
+
+			<div id="div_alerta_consumo3" class="temperatura1 normal">
+				<img src="img/monitor.png" class="img_consumo">
+				<p style="font-weight: bold;" name="nameconsumo" id="fkEquipamento" value="3">PC 3</p>
+				<p>consumo ram:</p>
+				<span id="div_consumoRam3">0%</span>
+				<p>consumo cpu:</p>
+				<span id="div_consumoCpu3">0%</span>
+				<p>consumo disco:</p>
+				<span id="div_consumoDisco3">0%</span>
+			</div>
+
+			<div id="div_alerta_consumo4" class="temperatura1 normal">
+				<img src="img/monitor.png" class="img_consumo">
+				<p style="font-weight: bold;" name="nameconsumo" id="fkEquipamento" value="4"> PC 4</p>
+				<p>consumo ram:</p>
+				<span id="div_consumoRam4">0%</span>
+				<p>consumo cpu:</p>
+				<span id="div_consumoCpu4">0%</span>
+				<p>consumo disco:</p>
+				<span id="div_consumoDisco4">0%</span>
+			</div>
+
+			<div id="div_alerta_consumo5" class="temperatura1 normal">
+				<img src="img/monitor.png" class="img_consumo">
+				<p style="font-weight: bold;" name="nameconsumo" id="fkEquipamento" value="5"> PC 5</p>
+				<p>consumo ram:</p>
+				<span id="div_consumoRam5">0%</span>
+				<p>consumo cpu:</p>
+				<span id="div_consumoCpu5">0%</span>
+				<p>consumo disco:</p>
+				<span id="div_consumoDisco5">0%</span>
+			</div>
+
+			<div id="div_alerta_consumo6" class="temperatura1 normal">
+				<img src="img/monitor.png" class="img_consumo">
+				<p style="font-weight: bold;" name="nameconsumo" id="fkEquipamento" value="6"> PC 6</p>
+				<p>consumo ram:</p>
+				<span id="div_consumoRam6">0%</span>
+				<p>consumo cpu:</p>
+				<span id="div_consumoCpu6">0%</span>
+				<p>consumo disco:</p>
+				<span id="div_consumoDisco6">0%</span>
+			</div>
+
+		</div>
+	
+
+	</div>
+
+	<div class="consulta_recursos">
+
+
+		<div class="medias">
+			<h2>Média de consumo:</h2>
+			<span>Média consumo de RAM: <p id="div_media_ram" style="font-weight: bold;">0%</p></span>
+			<span>Média consumo de CPU: <p id="div_media_cpu" style="font-weight: bold;">0%</p></span>
+			<span>Média consumo de Disco: <p id="div_media_disco" style="font-weight: bold;">0%</p></span>
+		</div>
+
+		<div class="botoes_recursos">
+			<h2>Gráfico de Recursos Individuas: </h2>
+			<div class="botoes">
+				<button id="CPU" onclick="cpu()">CPU</button>
+				<button id="RAM" onclick="ram()">RAM</button>
+				<button id="DISCO" onclick="disco()">DISCO</button>
+			</div>
+		</div>
+		
+		<div class="chart_recursos">
+			<canvas id="canvas_grafico"></canvas>
+		</div>
+		
+	</div>
+
+	<!--footer-->
+	<div class="footer">
+		<p> Sysight &copy;todos direitos reservados </p>
+	</div>
+		
+	</div>
+	<!--footer finish-->
+</body>
+
+</html>
+
+<script>
+	let login_usuario;
+	let nome_usuario;
+
+	function redirecionar_login() {
+		window.location.href = 'login.html';
+	}
+
+	function verificar_autenticacao() {
+		login_usuario = sessionStorage.login_usuario_meuapp;
+		nome_usuario = sessionStorage.nome_usuario_meuapp;
+
+		if (login_usuario == undefined) {
+			redirecionar_login();
+		} else {
+			b_usuario.innerHTML = nome_usuario;
+			validar_sessao();
+		}
+
+	}
+
+	function logoff() {
+		finalizar_sessao();
+		sessionStorage.clear();
+		redirecionar_login();
+	}
+
+	function validar_sessao() {
+		fetch(`/usuarios/sessao/${login_usuario}`, {
+				cache: 'no-store'
+			})
+			.then(resposta => {
+				if (resposta.ok) {
+					resposta.text().then(texto => {
+						console.log('Sessão :) ', texto);
+					});
+				} else {
+					console.error('Sessão :.( ');
+					logoff();
+				}
+			});
+	}
+
+	function finalizar_sessao() {
+		fetch(`/usuarios/sair/${login_usuario}`, {
+			cache: 'no-store'
+		});
+	}
+
+	// só mexer se quiser alterar o tempo de atualização
+	// ou se souber o que está fazendo!
+	function atualizacaoPeriodica() {
+		obterdadosporleitura(1);
+		obterdadosporleitura(2);
+		obterdadosporleitura(3);
+		obterdadosporleitura(4);
+		obterdadosporleitura(5);
+		obterdadosporleitura(6);
+		obterdadosmedia();
+		setTimeout(atualizacaoPeriodica, 5000);
+	}
+
+
+
+	function obterdadosporleitura(fkEquipamento) {
+		//aguardar();
+		fetch(`/leituras/tempo-real/${fkEquipamento}`)
+			.then(resposta => {
+
+				if (resposta.ok) {
+					resposta.json().then(function (resposta) {
+
+						console.log(`Dados recebidos: ${JSON.stringify(resposta)}`);
+
+						// aqui, após registro. use os nomes 
+						// dos atributos que vem no JSON 
+						// resposta: {temperatura : 40}
+						var dados = {
+							consumoRam: resposta.consumoRam,
+							consumoCpu: resposta.consumoCpu,
+							consumoDisco: resposta.consumoDisco
+						}
+
+						atualizarTela(dados, fkEquipamento);
+						alertar(dados, fkEquipamento);
+						
+					});
+				} else {
+
+					console.error('Nenhum dado encontrado ou erro na API');
+				}
+			})
+			.catch(function (error) {
+				console.error(`Erro na obtenção dos dados do usuario p/ gráfico: ${error.message}`);
+			});
+	}
+
+	function obterdadosmedia() {
+		//aguardar();
+		fetch(`/leituras/medias`)
+			.then(resposta => {
+
+				if (resposta.ok) {
+					resposta.json().then(function (resposta) {
+
+						console.log(`Dados recebidos: ${JSON.stringify(resposta)}`);
+
+						// aqui, após registro. use os nomes 
+						// dos atributos que vem no JSON 
+						// resposta: {temperatura : 40}
+						var dados = {
+							ram: resposta.mediaRam,
+							cpu: resposta.mediaCpu,
+							disco: resposta.mediaDisco
+						}
+
+						atualizarTela2(dados);
+					});
+				} else {
+
+					console.error('Nenhum dado encontrado ou erro na API');
+				}
+			})
+			.catch(function (error) {
+				console.error(`Erro na obtenção dos dados do usuario p/ gráfico: ${error.message}`);
+			});
+	}
+
+
+
+	// só altere aqui se souber o que está fazendo!
+	function atualizarTela(dados, fkEquipamento) {
+		console.log('iniciando atualização da tela...');
+
+		// escolhendo qual alterar
+		var div_consumoRam_alterar;
+		var div_consumoDisco_alterar;
+		var div_consumoCpu_alterar;
+		var div_media_alterar;
+
+
+		if (fkEquipamento == 1) {
+			div_consumoRam_alterar = div_consumoRam;
+			div_consumoCpu_alterar = div_consumoCpu;
+			div_consumoDisco_alterar = div_consumoDisco;
+		} else if (fkEquipamento == 2) {
+			div_consumoRam_alterar = div_consumoRam2;
+			div_consumoCpu_alterar = div_consumoCpu2;
+			div_consumoDisco_alterar = div_consumoDisco2;
+
+		} else if (fkEquipamento == 3) {
+			div_consumoRam_alterar = div_consumoRam3;
+			div_consumoCpu_alterar = div_consumoCpu3;
+			div_consumoDisco_alterar = div_consumoDisco3;
+
+		} else if (fkEquipamento == 4) {
+			div_consumoRam_alterar = div_consumoRam4;
+			div_consumoCpu_alterar = div_consumoCpu4;
+			div_consumoDisco_alterar = div_consumoDisco4;
+		} else if (fkEquipamento == 5) {
+			div_consumoRam_alterar = div_consumoRam5;
+			div_consumoCpu_alterar = div_consumoCpu5;
+			div_consumoDisco_alterar = div_consumoDisco5;
+		} else if (fkEquipamento == 6) {
+			div_consumoRam_alterar = div_consumoRam6;
+			div_consumoCpu_alterar = div_consumoCpu6;
+			div_consumoDisco_alterar = div_consumoDisco6;
+		}
+
+		div_consumoRam_alterar.innerHTML = `${dados.consumoRam.toFixed(2)}`;
+		div_consumoDisco_alterar.innerHTML = `${dados.consumoDisco.toFixed(2)}`;
+		div_consumoCpu_alterar.innerHTML = `${dados.consumoCpu.toFixed(2)}`;
+	}
+
+
+	function atualizarTela2(dados) {
+		console.log('iniciando atualização da tela...');
+
+		div_media_ram.innerHTML = `${dados.ram.toFixed(2)}`;
+		div_media_disco.innerHTML = `${dados.disco.toFixed(2)}`;
+		div_media_cpu.innerHTML = `${dados.cpu.toFixed(2)}`;
+
+	}
+
+	function alertar(dados, fkEquipamento) {
+		// padrão para meu alerta
+
+		// zerar aviso de mensagem
+
+		var classe_temperatura = 'temperatura1';
+
+		// comparando
+		if (dados.consumoRam > 75 || dados.consumoCpu > 75 || dados.consumoRam > 75) {
+
+			classe_temperatura = 'temperatura1 critico';
+		}else{
+			classe_temperatura =  'temperatura1 normal';
+		}
+
+
+		// escolhendo qual alterar
+		var div_consumo_alterar
+
+
+		if (fkEquipamento == 1) {
+			div_consumo_alterar = div_alerta_consumo
+		} else if (fkEquipamento == 2) {
+			div_consumo_alterar = div_alerta_consumo2
+
+		} else if (fkEquipamento == 3) {
+			div_consumo_alterar = div_alerta_consumo3
+
+		} else if (fkEquipamento == 4) {
+			div_consumo_alterar = div_alerta_consumo4
+
+		} else if (fkEquipamento == 5) {
+			div_consumo_alterar = div_alerta_consumo5
+
+		} else if (fkEquipamento == 6) {
+			div_consumo_alterar = div_alerta_consumo6
+
+		}
+
+		// alterando
+
+		div_consumo_alterar.className = classe_temperatura;
+	}
+
+
+
+
+	//define a variavel do canva
+	function ram() {
+
+		let proximaAtualizacao;
+
+		window.onload = obterDadosGraficoPrimeiraVez(1);
+
+
+		function chamargraficos(fkEquipamento) {
+
+			obterDadosGraficoPrimeiraVez(fkEquipamento)
+			atualizarGrafico(fkEquipamento)
+
+		}
+
+
+
+		// neste JSON tem que ser 'labels', 'datasets' etc, 
+		// porque é o padrão do Chart.js
+
+
+
+		// altere aqui as configurações do gráfico
+		// (tamanhos, cores, textos, etc)
+		function configurarGrafico() {
+			var configuracoes = {
+				responsive: true,
+				animation: {
+					duration: 500
+				},
+				hoverMode: 'index',
+				stacked: false,
+				title: {
+					display: true,
+					text: 'Consumo de RAM'
+				},
+				scales: {
+					yAxes: [{
+						type: 'linear', // only linear but allow scale type registration. This allows extensions to exist solely for log scale for instance
+						display: true,
+						position: 'left',
+						id: 'y-consumo',
+						gridLines: {
+                color: "rgba(0, 0, 0, 0)",
+            }   
+					}],
+
+				}
+			};
+
+			return configuracoes;
+		}
+
+
+		function obterDadosGraficoPrimeiraVez(fkEquipamento) {
+
+			if (proximaAtualizacao != undefined) {
+				clearTimeout(proximaAtualizacao);
+			}
+
+			fetch(`/leituras/ultimas/${fkEquipamento}`, {
+					cache: 'no-store'
+				}).then(function (response) {
+					if (response.ok) {
+						response.json().then(function (resposta) {
+							console.log(`Dados recebidos: ${JSON.stringify(resposta)}`);
+							resposta.reverse();
+
+							var dados = {
+								labels: [],
+								datasets: [{
+									yAxisID: 'y-consumo',
+									label: 'consumo',
+									fill: false,
+									data: [],
+									plugins: {
+            legend: {
+                labels: {
+                    // This more specific font property overrides the global property
+                    font: {
+                        size: 14
+                    }
+                }
+            }
+        }	
+									,borderColor: 'blue',
+    backgroundColor: 'transparent',
+    borderDash: [5, 5],
+    pointBorderColor: 'blue',
+    pointBackgroundColor: 'rgba(255,150,0,0.5)',
+    pointRadius: 5,
+    pointHoverRadius: 10,
+    pointHitRadius: 30,
+    pointBorderWidth: 2,
+    pointStyle: 'rectRounded'
+																
+								}]
+
+							};
+							for (i = 0; i < resposta.length; i++) {
+								var registro = resposta[i];
+								dados.labels.push(registro.momento_grafico);
+								dados.datasets[0].data.push(registro.consumoRam);
+
+							}
+							console.log(JSON.stringify(dados));
+
+							plotarGrafico(dados, fkEquipamento);
+						});
+					} else {
+						console.error('Nenhum dado encontrado ou erro na API');
+					}
+				})
+				.catch(function (error) {
+					console.error(`Erro na obtenção dos dados p/ gráfico: ${error.message}`);
+				});
+
+		}
+
+
+
+		// só mexer se quiser alterar o tempo de atualização
+		// ou se souber o que está fazendo!
+		function atualizarGrafico(fkEquipamento, dados) {
+
+			fetch(`/leituras/tempo-real/${fkEquipamento}`, {
+					cache: 'no-store'
+				}).then(function (response) {
+					console.log("Estou tentando pegar fkEquipamento = ", fkEquipamento)
+					if (response.ok) {
+						response.json().then(function (novoRegistro) {
+
+							console.log(`Dados recebidos: ${JSON.stringify(novoRegistro)}`);
+							console.log(`Dados atuais do gráfico: ${dados}`);
+
+							// tirando e colocando valores no gráfico
+							dados.labels.shift(); // apagar o primeiro
+							dados.labels.push(novoRegistro.momento_grafico); // incluir um novo momento
+							dados.datasets[0].data.shift(); // apagar o primeiro de temperatura
+
+							dados.datasets[0].data.push(novoRegistro
+								.consumoRam); // incluir uma nova leitura de temperatura
+							console.log("DADOS DA RAMMMMMMMMMMMMMMMMMMM")
+
+
+
+
+
+							console.log("meu usuario é o " + fkEquipamento)
+
+							window.grafico_linha.update();
+
+
+							proximaAtualizacao = setTimeout(() => atualizarGrafico(fkEquipamento, dados),
+							5000);
+						});
+					} else {
+						console.error('Nenhum dado encontrado ou erro na API');
+						proximaAtualizacao = setTimeout(() => atualizarGrafico(fkEquipamento, dados), 5000);
+					}
+				})
+				.catch(function (error) {
+					console.error(`Erro na obtenção dos dados p/ gráfico: ${error.message}`);
+				});
+
+		}
+		// só altere aqui se souber o que está fazendo!
+		function plotarGrafico(dados, fkEquipamento) {
+			console.log('iniciando plotagem do gráfico...');
+
+		
+
+			var ctx = canvas_grafico.getContext('2d');
+			window.grafico_linha = Chart.Line(ctx, {
+				data: dados,
+				options: configurarGrafico()
+			});
+
+			setTimeout(() => atualizarGrafico(fkEquipamento, dados), 2000);
+		}
+
+
+	}
+
+	function cpu() {
+
+		let proximaAtualizacao;
+
+		window.onload = obterDadosGraficoPrimeiraVez(1);
+
+
+		function chamargraficos(fkEquipamento) {
+
+			obterDadosGraficoPrimeiraVez(fkEquipamento)
+			atualizarGrafico(fkEquipamento)
+
+		}
+
+
+
+		// neste JSON tem que ser 'labels', 'datasets' etc, 
+		// porque é o padrão do Chart.js
+
+
+
+		// altere aqui as configurações do gráfico
+		// (tamanhos, cores, textos, etc)
+		function configurarGrafico() {
+			var configuracoes = {
+				borderColor: 'rgba(0,0,255,0.1)',
+				responsive: true,
+				animation: {
+					duration: 500
+				},
+				hoverMode: 'index',
+				stacked: false,
+				title: {
+					display: true,
+					text: 'Consumo de CPU'
+				},
+				scales: {
+					yAxes: [{
+						type: 'linear', // only linear but allow scale type registration. This allows extensions to exist solely for log scale for instance
+						display: true,
+						position: 'left',
+						id: 'y-consumo',
+						gridLines: {
+                color: "rgba(0, 0, 0, 0)",
+            }   
+					}],
+
+				}
+			};
+
+			return configuracoes;
+		}
+
+
+		function obterDadosGraficoPrimeiraVez(fkEquipamento) {
+
+			if (proximaAtualizacao != undefined) {
+				clearTimeout(proximaAtualizacao);
+			}
+
+			fetch(`/leituras/ultimas/${fkEquipamento}`, {
+					cache: 'no-store'
+				}).then(function (response) {
+					if (response.ok) {
+						response.json().then(function (resposta) {
+							console.log(`Dados recebidos: ${JSON.stringify(resposta)}`);
+							resposta.reverse();
+
+							var dados = {
+								labels: [
+									
+								],
+								backgroundColor: 'rgb(231,233,237)',
+								datasets: [{
+									yAxisID: 'y-consumo',
+									label: 'consumo',
+									fill: false,
+									data: [],
+									plugins: {
+            legend: {
+                labels: {
+                    // This more specific font property overrides the global property
+                    font: {
+                        size: 14
+                    }
+                }
+            }
+        }
+									,borderColor: 'blue',
+    backgroundColor: 'transparent',
+    borderDash: [5, 5],
+    pointBorderColor: 'blue',
+    pointBackgroundColor: 'rgba(255,150,0,0.5)',
+    pointRadius: 5,
+    pointHoverRadius: 10,
+    pointHitRadius: 30,
+    pointBorderWidth: 2,
+    pointStyle: 'rectRounded'
+								}],
+							
+							};
+							for (i = 0; i < resposta.length; i++) {
+								var registro = resposta[i];
+								dados.labels.push(registro.momento_grafico);
+
+								dados.datasets[0].data.push(registro.consumoCpu);
+
+
+							}
+							console.log(JSON.stringify(dados));
+
+							plotarGrafico(dados, fkEquipamento);
+						});
+					} else {
+						console.error('Nenhum dado encontrado ou erro na API');
+					}
+				})
+				.catch(function (error) {
+					console.error(`Erro na obtenção dos dados p/ gráfico: ${error.message}`);
+				});
+
+		}
+
+
+
+		// só mexer se quiser alterar o tempo de atualização
+		// ou se souber o que está fazendo!
+		function atualizarGrafico(fkEquipamento, dados) {
+
+			fetch(`/leituras/tempo-real/${fkEquipamento}`, {
+					cache: 'no-store'
+				}).then(function (response) {
+					console.log("Estou tentando pegar fkEquipamento = ", fkEquipamento)
+					if (response.ok) {
+						response.json().then(function (novoRegistro) {
+
+							console.log(`Dados recebidos: ${JSON.stringify(novoRegistro)}`);
+							console.log(`Dados atuais do gráfico: ${dados}`);
+
+							// tirando e colocando valores no gráfico
+							dados.labels.shift(); // apagar o primeiro
+							dados.labels.push(novoRegistro.momento_grafico); // incluir um novo momento
+							dados.datasets[0].data.shift(); // apagar o primeiro de temperatura
+
+							dados.datasets[0].data.push(novoRegistro
+								.consumoCpu); // incluir uma nova leitura de temperatura
+							console.log("DADOS DO CPU")
+
+
+
+
+
+
+							console.log("meu usuario é o " + fkEquipamento)
+
+							window.grafico_linha.update();
+
+
+							proximaAtualizacao = setTimeout(() => atualizarGrafico(fkEquipamento, dados),
+							5000);
+						});
+					} else {
+						console.error('Nenhum dado encontrado ou erro na API');
+						proximaAtualizacao = setTimeout(() => atualizarGrafico(fkEquipamento, dados), 5000);
+					}
+				})
+				.catch(function (error) {
+					console.error(`Erro na obtenção dos dados p/ gráfico: ${error.message}`);
+				});
+
+		}
+
+		// só altere aqui se souber o que está fazendo!
+		function plotarGrafico(dados, fkEquipamento) {
+			console.log('iniciando plotagem do gráfico...');
+
+			var ctx = canvas_grafico.getContext('2d');
+			window.grafico_linha = Chart.Line(ctx, {
+				data: dados,
+				options: configurarGrafico()
+			});
+
+			setTimeout(() => atualizarGrafico(fkEquipamento, dados), 2000);
+		}
+
+	}
+
+	function disco() {
+
+
+		let proximaAtualizacao;
+
+		window.onload = obterDadosGraficoPrimeiraVez(1);
+
+
+		function chamargraficos(fkEquipamento) {
+
+			obterDadosGraficoPrimeiraVez(fkEquipamento)
+			atualizarGrafico(fkEquipamento)
+
+		}
+
+
+
+		// neste JSON tem que ser 'labels', 'datasets' etc, 
+		// porque é o padrão do Chart.js
+
+
+
+		// altere aqui as configurações do gráfico
+		// (tamanhos, cores, textos, etc)
+		function configurarGrafico() {
+			var configuracoes = {
+				responsive: true,
+				animation: {
+					duration: 500
+				},
+				hoverMode: 'index',
+				stacked: false,
+				title: {
+					display: true,
+					text: 'Consumo de Disco'
+				},
+				scales: {
+					yAxes: [{
+						type: 'linear', // only linear but allow scale type registration. This allows extensions to exist solely for log scale for instance
+						display: true,
+						position: 'left',
+						id: 'y-consumo',
+						gridLines: {
+                color: "rgba(0, 0, 0, 0)",
+            }   
+					}],
+
+				}
+			};
+
+			return configuracoes;
+		}
+
+		function obterDadosGraficoPrimeiraVez(fkEquipamento) {
+
+			if (proximaAtualizacao != undefined) {
+				clearTimeout(proximaAtualizacao);
+			}
+
+			fetch(`/leituras/ultimas/${fkEquipamento}`, {
+					cache: 'no-store'
+				}).then(function (response) {
+					if (response.ok) {
+						response.json().then(function (resposta) {
+							console.log(`Dados recebidos: ${JSON.stringify(resposta)}`);
+							resposta.reverse();
+
+							var dados = {
+								labels: [],
+								backgroundColor: 'rgb(231,233,237)',
+								datasets: [{
+									yAxisID: 'y-consumo',
+									label: 'consumo',
+									fill: false,
+									data: [],
+									plugins: {
+            legend: {
+                labels: {
+                    // This more specific font property overrides the global property
+                    font: {
+                        size: 14
+                    }
+                }
+            }
+        }
+									,borderColor: 'blue',
+    backgroundColor: 'transparent',
+    borderDash: [5, 5],
+    pointBorderColor: 'blue',
+    pointBackgroundColor: 'rgba(255,150,0,0.5)',
+    pointRadius: 5,
+    pointHoverRadius: 10,
+    pointHitRadius: 30,
+    pointBorderWidth: 2,
+    pointStyle: 'rectRounded'
+           							 
+								}],
+							};
+							for (i = 0; i < resposta.length; i++) {
+								var registro = resposta[i];
+								dados.labels.push(registro.momento_grafico);
+								dados.datasets[0].data.push(registro.consumoDisco);
+							}
+							console.log(JSON.stringify(dados));
+
+							plotarGrafico(dados, fkEquipamento);
+						});
+					} else {
+						console.error('Nenhum dado encontrado ou erro na API');
+					}
+				})
+				.catch(function (error) {
+					console.error(`Erro na obtenção dos dados p/ gráfico: ${error.message}`);
+				});
+
+		}
+
+
+
+		// só mexer se quiser alterar o tempo de atualização
+		// ou se souber o que está fazendo!
+		function atualizarGrafico(fkEquipamento, dados) {
+
+			fetch(`/leituras/tempo-real/${fkEquipamento}`, {
+					cache: 'no-store'
+				}).then(function (response) {
+					console.log("Estou tentando pegar fkEquipamento = ", fkEquipamento)
+					if (response.ok) {
+						response.json().then(function (novoRegistro) {
+
+							console.log(`Dados recebidos: ${JSON.stringify(novoRegistro)}`);
+							console.log(`Dados atuais do gráfico: ${dados}`);
+
+							// tirando e colocando valores no gráfico
+							dados.labels.shift(); // apagar o primeiro
+							dados.labels.push(novoRegistro.momento_grafico); // incluir um novo momento
+							dados.datasets[0].data.shift(); // apagar o primeiro de temperatura
+
+							dados.datasets[0].data.push(novoRegistro
+								.consumoDisco); // incluir uma nova leitura de temperatura
+							console.log("DADOS DO DISCO")
+
+
+
+
+
+
+							console.log("meu usuario é o " + fkEquipamento)
+
+							window.grafico_linha.update();
+
+
+							proximaAtualizacao = setTimeout(() => atualizarGrafico(fkEquipamento, dados),
+							5000);
+						});
+					} else {
+						console.error('Nenhum dado encontrado ou erro na API');
+						proximaAtualizacao = setTimeout(() => atualizarGrafico(fkEquipamento, dados), 5000);
+					}
+				})
+				.catch(function (error) {
+					console.error(`Erro na obtenção dos dados p/ gráfico: ${error.message}`);
+				});
+
+		}
+
+		// só altere aqui se souber o que está fazendo!
+		function plotarGrafico(dados, fkEquipamento) {
+			console.log('iniciando plotagem do gráfico...');
+
+			var ctx = canvas_grafico.getContext('2d');
+			window.grafico_linha = Chart.Line(ctx, {
+				data: dados,
+				options: configurarGrafico()
+			});
+
+			setTimeout(() => atualizarGrafico(fkEquipamento, dados), 2000);
+		}
+
+	}
+
+
+
+	// altere aqui como os dados serão exibidos
+	// e como são recuperados do BackEnd
+</script>

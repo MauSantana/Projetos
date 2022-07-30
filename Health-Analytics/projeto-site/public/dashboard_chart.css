@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+/*global*/
+* {
+    margin: 0;
+    padding: 0;
+}
+ 
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color:rgba(221, 255, 253, 0.767);
+}
+
+.btnStyle{
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: 1px solid turquoise;
+    cursor: pointer;
+    color: black;
+    padding: 20px;
+    border-radius: 60px;
+    font-size: 20px;
+}
+
+.btn{
+    float:right;
+    margin-top: 335px;
+    margin-right: 194px;
+}
+
+#btnAPI{
+    display: none;
+    float: right;
+    margin-top: 1574px;
+    margin-right: 90px;
+}
+
+#btnFuncionario{
+    float: right;
+    display: none;
+    margin-left: -350px;
+    margin-top: 1574px;
+
+}
+/*Fim Global*/
+
+/*Header*/
+.header {
+  
+    height: 200px;
+}
+
+.header img {
+    width: 350px;
+    background-size: cover;
+    padding: 20px 0 0 30px;
+    
+}
+
+/*nav*/
+
+.nav {
+    float:right;
+    margin-right: 50px; 
+    padding-top: 30px; 
+}
+
+.nav li {
+    display: inline-block;
+    padding: 40px 30px 0 20px;
+    font-size: 30px;
+}
+
+ .nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 28px;
+
+}
+
+ .nav img {
+    width: 45px;
+    padding-left:50px;
+}
+
+
+
+
+ #titulo_medicoes{
+    font-size: 70px;
+}
+
+ .analytics{
+    margin-left:200px;
+}
+
+
+ .bloco_temperatura{
+    text-align: center;
+}
+
+ .bloco_temperatura a{
+    color: black;
+}
+
+ .temperatura1{
+    background-color: rgba(255, 255, 255, 0.644);
+    height: 200px;
+    width: 233px;
+    border-radius: 7px;
+    margin-left: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+
+
+.temperatura1 p {
+    font-size: 28px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.temperatura1 h2 {
+    font-size: 70px;
+    padding-top: 15px;
+}
+
+
+.temperatura2{
+    height: 200px;
+    width: 233px;
+    border-radius: 7px;
+    margin-left: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+
+.temperatura2 p {
+    font-size: 28px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+.temperatura2 h2 {
+    font-size: 70px;
+    padding-top: 15px;
+}
+
+#div_alertas_criticos a{
+    text-decoration: none;
+}
+
+/*Inicio Grafico*/
+canvas{
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.grafico_principal{
+    width:50%;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+}
+
+
+.admin{
+    display: none;
+}
+/*Fim Grafico*/
+
+/*  Graficos    */
+
+h3 {
+    text-align: center;
+}
+
+.comboSet{
+    width: 340px;
+    font-size: 40px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 40px;
+}
+.legenda span{
+    display: inline block;
+    font-size: 24px;
+    padding: 20px;
+}
+
+#vermelho{
+    background-color: rgb(219, 59, 59);
+    width: 40px;
+    height: 40px;
+}
+#verde{
+    background-color: #22d422;
+    width: 30px;
+    height: 30px;
+}
+#azul {
+    background-color: rgb(131, 99, 221);
+    width: 30px;
+    height: 30px;
+}
+
+/*footer*/
+
+.footer {
+    background-color: turquoise;
+    height: 100px;
+    margin-top: 250px;
+    text-align: center;
+}
+
+.footer ul{
+    list-style: none;
+    padding-top:30px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+/*fim do footer*/

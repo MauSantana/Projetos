@@ -1,0 +1,125 @@
+.overlay {
+  background-color: rgba(0, 0, 0, 0.33);
+  height: 100vh;
+  inset: 0;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 9999;
+}
+
+.stage {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  left: 0;
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+}
+
+.container {
+  background-color: #fff;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  left: 50%;
+  max-height: 100vh;
+  max-width: 100vw;
+  outline: none;
+  overflow: auto;
+  padding: 0;
+  pointer-events: all;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.fullWidth {
+  min-width: 928px;
+  width: 96vw;
+}
+
+.largeWidth {
+  width: 928px;
+}
+
+.mediumWidth {
+  width: 784px;
+}
+
+.smallWidth {
+  width: 568px;
+}
+
+.autoHeight {
+  height: auto;
+  max-height: 96vh;
+}
+
+.fullHeight {
+  height: 96vh;
+  min-height: 256px;
+}
+
+.largeHeight {
+  height: 75vh;
+  min-height: 256px;
+}
+
+.mediumHeight {
+  height: 50vh;
+  min-height: 256px;
+}
+
+.smallHeight {
+  height: 33vh;
+  min-height: 256px;
+}
+
+.header {
+  border-bottom: 1px solid #ccc;
+  margin: 8px 16px;
+  position: relative;
+}
+
+.headerContent {
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 8px 0;
+  overflow: hidden;
+}
+
+.headerClose {
+  background-color: transparent;
+  border: 0;
+  padding: 8px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.headerClose:hover {
+  cursor: pointer;
+}
+
+.body {
+  height: 100%;
+  overflow: auto;
+}
+
+.bodyContent {
+  margin: 16px;
+}
+
+.footer {
+  background-color: #eee;
+}
+
+.footerContent {
+  margin: 16px;
+}

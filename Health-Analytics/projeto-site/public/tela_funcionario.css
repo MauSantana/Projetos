@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.temperaturaGerais a{
+    color: black;
+    text-decoration: none;
+}
+
+body {
+    font-family: Roboto;
+    background-color: #8bcada;
+}
+
+.fundo {
+  
+    /* background-color: #2EC4B6;*/
+    /* background-image: url(img/Fundo_perfil_dash.jpg); */
+    background-size: cover;
+    height: 900px;
+}
+
+/*Header*/
+.header {
+    background-color: #8bcada ;
+}
+
+.header img {
+    width: 350px;
+    background-size: cover;
+    padding: 25px;
+
+
+}
+
+.img_funcionario {
+    height: 250px;
+    border-color: #2ec4b6;
+    border-style: solid;
+    margin: 50px 50px 20px 50px;
+    border-radius: 10px;
+
+}
+
+.nav {
+    float: right;
+    margin-right: 50px;
+    padding-top: 30px;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 40px 30px 0 20px;
+    font-size: 30px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 28px;
+
+}
+
+.btn_voltar {
+    font-size: 25px;
+    width: 150px;
+    height: 60px;
+    text-align: center;
+    border: none;
+    background-color: #00548b;
+    cursor: pointer;
+    color: white;
+}
+
+.btn_voltar:hover {
+    background-color: #21c7c7;
+    border-color: #162c2c;
+}
+
+#nomeTitulo{
+    font-size:40px;
+    padding-top: 20px;
+}
+
+.perfil {
+    background-color: #21c7c7de;
+    width: 400px;
+    text-align: center;
+    margin-left: 40px;
+    border-radius: 8px;
+    float: left;
+    margin-bottom: 80px;
+    padding-bottom: 40px;
+}
+
+.dados{
+    text-align: left;
+    margin-left: 50px;
+}
+
+.perfil img {
+    width: 300px;
+    margin-top: 37px;
+    border-radius: 5px;
+    border-color: #1a8686;
+}
+
+.perfil p {
+    font-size: 25px;
+}
+
+.btn {
+    font-size: 25px;
+    width: 150px;
+    height: 60px;
+    text-align: center;
+    border: none;
+    background-color: #00548b;
+    cursor: pointer;
+    color: white;
+ 
+}
+
+.btn-historico{
+    width: 270px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+.btn-historico:hover{
+    background-color:#0c7494 ;
+}
+
+.dashboard {
+    width: 1200px;
+    height: 700px;
+    border-radius: 5px;
+    border: 4px solid black;
+    background-color: white;
+    text-align: center;
+    margin-left: 600px;
+    margin-bottom: 200px;
+}
+
+#div_aguarde {
+    font-size: 30px;
+    padding-top: 60px;
+}
+
+
+.footer {
+    background-color: #00548b;
+    height: 100px;
+}
+

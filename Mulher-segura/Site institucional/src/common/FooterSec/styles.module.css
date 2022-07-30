@@ -1,0 +1,66 @@
+.contatos {
+    position: relative;
+    height: 360px;
+    background-color: #3C066F;
+    width: 100%;
+    margin-top: 12%;
+    display: inline-block;
+}
+
+.contatos button{
+    background-color: #3C066F;
+    border: none;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    width: 70%;
+    text-align: left;
+}
+
+.titleModal{
+    color: #441571;
+}
+
+
+.pergFrequentes h4{
+    color: tomato;
+    font-size: 20px;
+    margin-top: 2rem;
+}
+
+.contatos a{
+    text-decoration: none;
+    color: turquoise;
+}
+
+.contatos a:hover{
+    color: tomato;
+}
+
+.txt1Contatos {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-family: Montserrat;
+    float: left;
+    margin: 5% 0px 0px 230px;
+}
+
+.txt2Contatos {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-family: Montserrat;
+    float: right;
+    margin: 5% 230px 0px 0px;
+}
+
+.iconesContatos {
+    text-align: center;
+    align-items: center;
+}
+
+.iconesContatos img {
+    height: 40px;
+    margin: 300px 20px 0 0;
+    padding: 2px;
+    cursor: pointer;
+}
+

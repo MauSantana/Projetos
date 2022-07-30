@@ -1,0 +1,13 @@
+.section {width: 1400px; margin: 0 auto; max-width: 98%; font-size: 20px; font-weight: 700; padding: 120px 0;}
+.pageTitle {font-size: 20px; text-transform: uppercase;}
+.title {font-size: 40px; color: #3C066F;}
+
+.projetoMulherContainer {display: flex; align-items: center;}
+.projetoMulherContainer > div {flex: 1 1 50%;}
+.boxAzul {background-color: #8FDBD2; border-radius: 50px; margin-left: 150px; padding-top: 30px; width: 60%; margin-left: 40%;}
+.boxAzul img {transform: translate(-130px, 21px); height: auto; max-width: 120%;}
+
+.divider {width: 1400px; margin: 0 auto; max-width: 98%; height: 7px; background-color: #44C2B3;}
+
+.contatoContainer {display: flex; margin-top: 80px;}
+.contatoContainer > div {flex: 1 1 0px;; text-align: center;}

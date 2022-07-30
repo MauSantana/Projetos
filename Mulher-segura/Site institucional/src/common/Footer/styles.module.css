@@ -1,0 +1,136 @@
+.caixaEmail {
+    position: absolute;
+    width: 100%;
+    height: 704px;
+    top: 7300px;
+    background-color: rgba(187, 107, 217, 0.4);
+}
+
+.caixaEmailTxt1 {
+    position: static;
+    width: 900px;
+    height: 100px;
+    left: 72px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #3C066F;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 150px 0px 50px 0px;
+}
+
+.caixaEmailTxt2 {
+    position: static;
+    width: 700px;
+    height: 40px;
+    left: 172px;
+    top: 110px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #333333;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 10px 0px;
+}
+
+.btnCaixaEmail {
+    background-color: #3C066F;
+    width: 117px;
+    height: 58px;
+    margin: 10% 0px 0px 0px;
+}
+
+.inpCaixaEmail {
+    background-color: white;
+    width: 400px;
+    height: 58px;
+    margin: 10% 0px 0px 0px ;
+    vertical-align: bottom;
+}
+
+.btnCaixaEmail p {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: Montserrat;
+    cursor: pointer;
+    margin-top: 14%;
+}
+
+.contatos {
+    position: absolute;
+    height: 360px;
+    background-color: #3C066F;
+    width: 100%;
+    top: 8000px;
+    display: inline-block;
+}
+
+.contatos button{
+    background-color: #3C066F;
+    border: none;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    width: 70%;
+    text-align: left;
+}
+
+.titleModal{
+    color: #441571;
+}
+
+
+.pergFrequentes h4{
+    color: tomato;
+    font-size: 20px;
+    margin-top: 2rem;
+}
+
+.contatos a{
+    text-decoration: none;
+    color: turquoise;
+}
+
+.contatos a:hover{
+    color: tomato;
+}
+
+.txt1Contatos {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-family: Montserrat;
+    float: left;
+    margin: 5% 0px 0px 230px;
+}
+
+.txt2Contatos {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-family: Montserrat;
+    float: right;
+    margin: 5% 230px 0px 0px;
+}
+
+.iconesContatos {
+    text-align: center;
+    align-items: center;
+}
+
+.iconesContatos img {
+    height: 40px;
+    margin: 300px 20px 0 0;
+    padding: 2px;
+    cursor: pointer;
+}
+

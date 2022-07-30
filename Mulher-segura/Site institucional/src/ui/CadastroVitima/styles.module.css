@@ -1,0 +1,185 @@
+/* imagens laterais da tela de cadastro de vitima*/
+
+.vetor1 {
+  position: fixed;
+  width: auto;
+  height: 100vh;
+  left: 0;
+  top: 0;
+}
+.vetor2 {
+  position: fixed;
+  width: auto;
+  height: 100vh;
+  right: 0;
+  top: 0;
+}
+
+/* Fim imagens laterais */
+
+/* Inicio Cadastro Vítima */
+
+.container {
+  margin-top: 7%;
+}
+
+.container p {
+  text-align: center;
+  text-decoration-color: black;
+  font-size: 20px;
+  margin: 1rem 4rem auto 4rem;
+}
+
+.container h2 {
+  font-size: 27px;
+  color: #441571;
+}
+
+.container h4 {
+  text-align: left;
+  font-size: 20px;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #ff5446;
+}
+
+/* Fim Cadastro Vítima */
+
+/* Informe suas informações de contato! */
+
+.frases1,
+h2 {
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  color: #000000;
+}
+
+.frases2,
+h3 {
+  font-style: normal;
+  font-weight: bold;
+  text-align: left;
+  color: #000000;
+}
+/* MENSAGENS DE ERRO */
+.errorMessages {
+  color: #ff0059 !important;
+  display: table-row !important;
+  font-weight: 600 !important;
+  font-size: 15px !important;
+}
+
+/* Fim Informe suas informações de contato! */
+
+/* Botões de Anterior e Proximo*/
+
+.btnAnterior,
+.btnProximo {
+  height: 40px;
+  padding: 0 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.botoes Link {
+  text-decoration: none;
+  color: blueviolet;
+  text-transform: uppercase;
+}
+
+.btnAnterior {
+  color: blueviolet;
+  text-decoration-color: #ff5446;
+  background-color: #ffffff;
+  border-color: #ff5446;
+  margin-top: 5%;
+  font-size: 17px;
+}
+
+.btnProximoWrapper {
+  text-align: right;
+}
+
+.btnProximo {
+  background-color: #ff5446;
+  text-decoration-color: #ffffff;
+  border-color: #ff5446;
+  color: #ffffff;
+  font-size: 17px;
+  margin-top: 5%;
+}
+
+/* Fim Botões de Anterior e Proximo*/
+
+/* Tabelas de formularios de cadastro de vitima*/
+
+.tabela input,
+.tabela select {
+  border: none;
+  color: #bb6bd9 !important;
+}
+
+.tabela td {
+  padding: 15px !important;
+}
+
+/* Formularios de cadastro de vitima*/
+
+.boxForm {
+  border-radius: 5px;
+  background-color: white;
+  position: relative;
+  padding: 10px;
+  margin: 2rem 4rem 0 4rem;
+}
+
+/* Fim Formularios de cadastro de vitima*/
+
+/* Mensagens de erro dos inputs dos formularios*/
+
+
+/* Mensagens de erro dos inputs dos formularios*/
+
+.botoesCad h2 {
+  font-size: 27px;
+  margin-top: 3rem;
+  color: #441571;
+}
+
+.botoesCad p {
+  text-align: center;
+  text-decoration-color: black;
+  font-size: 22px;
+  margin-top: 2rem;
+}
+
+.botoes {
+  margin: 7% 30% 0 30%;
+}
+
+.botoes a {
+  text-decoration: none;
+  color: #441571;
+  text-transform: uppercase;
+}
+
+.botoes a:hover {
+  color: black;
+}
+
+.btnVitima {
+  background-color: #ff5446;
+  padding: 20px;
+  width: auto;
+  text-decoration: none;
+}
+
+.btnPsicologo {
+  background-color: #ff5446;
+  padding: 20px;
+  width: auto;
+  text-decoration: none;
+}
+
+/* Fim página intermediária para cadastro */
